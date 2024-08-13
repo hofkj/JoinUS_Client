@@ -1,0 +1,40 @@
+#nav{
+    display: flex;
+    width: 100%;
+    max-width: auto;
+    height: 6.9375rem;
+    justify-content: space-between; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    background: #FFF;
+    box-shadow: var(--nav-boxshadow);
+}
+
+.joinus-container{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 20px;
+}
+
+.joinus-title{
+    color: #000;
+    font-size: 1.96594rem;
+    font-weight: 800;
+}
+
+.mypage{
+    padding: 0 3rem; 
+    color: #C9C9C9;
+    font-size: 1.6rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .mypage{
+        display: none;
+    }
+}
