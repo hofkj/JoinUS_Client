@@ -5,7 +5,7 @@ let selectedRole = null;
             account.addEventListener('click', function() {
                 document.querySelectorAll('.account').forEach(el => el.classList.remove('selected'));
                 this.classList.add('selected');
-                selectedRole = this.getAttribute('data-role');
+                selectedRole = this.getAttribute('data-role'); //HTML 요소의 data-role 속성 값을 가져오는 방법
             });
         });
 
