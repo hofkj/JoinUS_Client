@@ -6,46 +6,34 @@
 }
 
 :root{
-    /* nav */
-    --nav-height: 111px;
      
-    /* font color */
-    --color1:#000;
-    --color2:#AEAEAE;
-    --color3:#D2CFCF;
-    --color4:#CBCBCB;
-    --color5:#FFF;
-    --color6:#ECECEC;
-    --color7: #AAA;
-    --color8:#494949;
-    --color9:#D2D2D2;
-    --color10:#B0B0B0;
-    --color4:#5200FF;
-    
-
+    /* color */
+    --color1: #0047FF;
+    --color:2 #1F64FF;;
+    --color3: #ACCDFF;
+    --color4: #000;
+    --color5: #002;
+    --color6: #CBCBCB;
+    --color7: #AEAEAE;
+    --color8: #DA4948;
+    --color9: rgba(172, 205, 255, 0.57);
+    --color10: linear-gradient(226deg, rgba(66, 133, 244, 0.02) 0.01%, rgba(66, 133, 244, 0.02) 0.02%, rgba(37, 106, 249, 0.04) 0.03%, rgba(0, 71, 255, 0.08) 95.73%);
 
     /* font size */
-    --font-size1: 0.75rem;
+    --font-size1: 0.875rem;
     --font-size2: 1rem;
-    --font-size3: 1.25rem;
-    --font-size4: 2.5rem;
-    --font-size5: 2rem;
-    --font-size6: 1.75rem;
-
-
-    /* border color */
-    --border-color1:#5200FF;
-    --border-color2:#C7ACFF;
-
-    /* border background color */
-    --background-color1: #864CFF;
-    --background-color2: rgba(199, 172, 255, 0.30);
-    --background-color3:  #F5F6FA;
+    --font-size3: 1.125rem;
+    --font-size4: 1.25rem;
+    --font-size5: 1.5rem;
+    --font-size6: 2.25rem;
+     
 
     /* box shadow */
-    --nav-boxshadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.04);
-    --login-boxshadow:  0px 0px 10px 0px rgba(0, 0, 0, 0.06);
-    --boxshadow1: 0px 2px 28.7px 0px rgba(0, 0, 0, 0.06);
+    --shadow1: 0px 0px 10px 0px rgba(0, 0, 0, 0.06);
+    --shadow2: 1px 4px 10px 0px rgba(31, 100, 255, 0.25);
+    --shadow3: 1px 4px 10px 0px rgba(170, 178, 200, 0.45);
+    
+    
 
 }
 
