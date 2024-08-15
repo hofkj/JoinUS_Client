@@ -1,4 +1,6 @@
-
+body{
+    background: #F5F6FA;
+}
 #all-container {
     position: fixed;  
     top: 50%;  
@@ -15,6 +17,7 @@
     border-radius: 1.875rem;
     background: #fff;
     box-shadow: var(--shadow1);
+    z-index: 100;
     
 }
 
