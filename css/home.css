@@ -1,12 +1,12 @@
 body {
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 88px 300px 80px 300px;
+    padding: 88px 300px 0px 300px;
 }
 
 .mypage {
@@ -24,23 +24,14 @@ nav {
     width: 22px;
 }
 
-.nav-my {
-    display: flex;
-    align-items: center;
-    column-gap: 24px;
-}
-
 
 /* 메인 */
 main {
     margin-top: 268px;
-    /* nav에 가려져서 안 보이는 문제 해결 */
 
     display: flex;
     flex-direction: column;
-    /* 수직 배치 */
     align-items: center;
-    /* 교차축(수평) 가운데 정렬 */
     row-gap: 40px;
 }
 
@@ -50,19 +41,20 @@ main {
     /* 임시 */
     min-width: 800px;
     height: 8.5625rem;
+    border-bottom: 2px #F1F1F1 solid;
 }
 
 #club-container {
     display: flex;
+      
 }
 
 #club-text {
+    /* 수정 필요 */
+    margin-bottom: 33px;
     color: #002;
-    /* font-family: Pretendard; */
     font-size: 36px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 #club-container>div {
@@ -71,10 +63,8 @@ main {
     justify-content: center;
     align-items: center;
     gap: 45px;
-    /* 색 정확히 모르겠음 */
 }
 
-/* 나중에 설정 */
 #club-container>:first-child {
     border-bottom: 2px #0047FF solid;
 }
@@ -84,8 +74,9 @@ main {
     background-color: #F5F6FA;
     padding: 13px 17px;
     border-radius: 10px;
+    /* 반응형 */
     min-width: 400px;
-    width: 90%;
+    width: 100%;
     max-width: 679px;
     display: flex;
     /* align-items: center; */
@@ -102,17 +93,15 @@ main {
 #search-bar {
     font-size: 16px;
     border: none;
-    /* 입력창 외곽선 삭제 */
     background: none;
     outline: none;
-    /* focus 되었을 때 외곽선 삭제 */
     flex-grow: 1;
     /* 정해진 너비에 여유 공간이 있을 때 확장하자 (입력창 커짐) */
 }
 
 
 /* 아티클 임시 */
-article {
+.article1, .article {
     border-radius: 10px;
     background: #F5F6FA;
 
@@ -137,7 +126,7 @@ article {
     border-radius: 10px;
     background: #F5F6FA;
     width: 11px;
-    /* height: 692px; */
+    height: 692px;
 }
 
 .club-list::-webkit-scrollbar-thumb {
