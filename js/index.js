@@ -15,13 +15,13 @@ let selectedRole = null;
                 let url = '';
                 switch (selectedRole) {
                     case 'teacher':
-                        url = '#';
+                        url = 'login.html';
                         break;
                     case 'student':
-                        url = '#';
+                        url = 'login.html';
                         break;
                     case 'admin':
-                        url = '#';
+                        url = 'login.html';
                         break;
                 }
                 window.location.href = url;

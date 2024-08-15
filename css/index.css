@@ -1,4 +1,6 @@
-
+body{
+    background: #F5F6FA;
+}
 #all-container {
     position: fixed;  
     top: 50%;  
@@ -14,7 +16,11 @@
     height: 43.5rem;
     border-radius: 1.875rem;
     background: #fff;
-    box-shadow: var(--boxshadow1);
+    box-shadow: var(--shadow1);
+<<<<<<< Updated upstream
+    z-index: 100;
+=======
+>>>>>>> Stashed changes
     
 }
 
@@ -24,14 +30,14 @@
     gap: 0.79rem;
 }
 .introduce1{
-    color: var(--color1);
+    color: var(--color4);
     font-size: 2.37369rem;
     font-weight: 600;
     text-align: center;
 }
 
 .introduce2{
-    color: var(--color2);
+    color: #AEAEAE;;
     font-size: 1.09556rem;
     font-weight: 400;
     text-align: center;
@@ -39,16 +45,16 @@
 #select-container{
     display: flex;
     justify-content: center;
-    column-gap: 0.91rem;
+    column-gap: 0.99rem;
     width: 100%;
     cursor: pointer;
 }
 .account{
-    width: 12.32475rem;
-    height: 12.2335rem;
+    width: 12.25rem;
+    height: 12.1875rem;
     border-radius: 1.09556rem;
-    background: linear-gradient(226deg, rgba(166, 123, 255, 0.08) 0%, rgba(199, 172, 255, 0.08) 0.01%, rgba(83, 0, 255, 0.08) 95.73%);
-    color: #5200FF;
+    background: var(--color10);
+    color: var(--color1);
     font-size: 1.36944rem;
     font-weight: 600;
     margin-top: 5.4rem;
@@ -75,8 +81,8 @@
     padding: 0.75rem 1.5625rem;
     border-radius: 3.5605rem;
     background-color: #fff;
-    border: 1.461px solid #5200FF;
-    color: var(--color4);
+    border: 1.461px solid var(--color1);
+    color: var(--color1);
     font-size: 1.36944rem;
     font-weight: 500;
     margin-top: 5.4rem;
@@ -92,7 +98,8 @@
 
 .account.selected {
     
-    background-color: #f0f8f0;
+    background-color: #f9f9f9;
+    border: 1px solid #b6bfd6;
 }
  
 
