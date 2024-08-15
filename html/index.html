@@ -9,34 +9,47 @@
     <link href="/images/logo.png" rel="shortcut icon" type="image/x-icon">
 </head>
 <body>
-    <div id="all-container">
-        <div class="introduce-container">
-            <div class="introduce1">사용자를 선택해 주세요.</div>
-            <div class="introduce2">설정에서 수정하실 수 있습니다.</div>
-        </div>
-        
-        <div id="select-container">
-            <div class="teacher-account account" data-role="teacher">
-                <div class="teacher">선생님</div>
-                <img src="/images/teacher.png" alt="" class="teacher-logo logo">
-            </div>
-
-            <div class="student-account account" data-role="student">
-                <div class="student">학생</div>
-                <img src="/images/student.png" alt="" class="student-logo logo">
-            </div>
-
-            <div class="admin-account account" data-role="admin">
-                <div class="admin">관리자</div>
-                <img src="/images/admin.png" alt="" class="admin-logo logo">
+    <section id="section">
+        <div class="all-container">
+            <div class="title-container">
+                <img src="/images/logo.png" alt="joinus" class="joinus-logo">
+                <div class="joinus-title">JoinUS!</div>
             </div>
             
-        </div>
+            <div class="language-container">
+                <div class="korean language lan">한국어</div>
+                <div class="contour language">|</div>
+                <div class="english language lan">영어</div>
+            </div>
 
-         <div class="finish-button">
-            <button type="button" class="finish" onclick="completeSelection()">선택 완료</button>
-         </div>  
-    </div>
-    <script src="/js/index.js"></script>
+            <form action="#" id="login-form" class="login-form">
+                <div class="input-group">
+                <input type="text" id="user-id" class="user-id field" placeholder="아이디 작성하기" required>
+                <input type="password" id="user-password" class="user-password field" placeholder="비밀번호 작성하기" required>
+                </div>
+                <div class="options">
+                    <a href="#" class="search-id option">아이디 찾기</a>
+                    <span class="contour2 option">|</span>
+                    <a href="#" class="search-password option">비밀번호 찾기</a>
+                </div>
+
+                <div class="button-wrapper">
+                    <button type="submit" id="login-button" class="login-button">로그인</button>
+                </div>
+            </form>
+            
+            <div class="lines">
+                <hr class="left-line line">
+                <div class="guide-message">로그인 및 회원가입 하기</div>
+                <hr class="right-line line">
+            </div>
+            
+            <a href="#"><div class="googlelogin-container">
+                <img src="/images/google-logo.png" alt="google" class="google-logo google">
+                <div class="google-login google">구글 계정으로 로그인</div>
+            </div>
+        </a>
+        </div>
+    </section>
 </body>
 </html>
